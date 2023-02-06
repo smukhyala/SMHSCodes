@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <title>HTML STYLING</title>
     <!--CSS FILE-->
     <link rel="stylesheet" href="./style.css">
     <style>
-        body {font-family: sans-serif;}
+        body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+        .bottomFooter {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(244, 141, 24, 0.975);
+        color: white;
+        text-align: center;
+        }
 
         .tab {
-            overflow: hidden;
-            border: 1px solid #ccc;
-            background-color: #383636;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #383636;
         }
 
         .tab button {
@@ -31,7 +43,7 @@
 
         /* Create an active/current tablink class */
         .tab button.active {
-        background-color: rgb(84, 65, 23);
+        background-color: rgb(250, 161, 109);
         }
 
         /* Style tab content */
@@ -79,7 +91,7 @@
     <div id="Home" class="tabcontent">
         <div class="mainBox">
             <div class="smallBox">
-    
+
             </div>
             <h1><b>SMHS CODES</b></h1>
             <p>Hackathon 2024</p>
@@ -99,6 +111,12 @@
     </div>
 
     <script src="LabelLogic.js"></script>
+
+    <div class="bottomFooter">
+        <style type="text/css">
+        </style>
+        <p>Copyright 2023 SMHS Codes</p>
+    </div>
 
 </body>
 
