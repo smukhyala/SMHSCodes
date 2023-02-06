@@ -65,9 +65,17 @@
         <p>Hackathon 2024</p>
     </div>
 
-    <h3> Go to ... </h3>
-
-    <div class="tab">
+    <div id="top" class="tab" style="position:fixed;background:white;width:100%;height:50px;">
+        <style>
+            #top {
+                position: top;
+                top: 0;
+                left: 0;
+                z-index: 999;
+                width: 100%;
+                height: 23px;
+            }
+        </style>
         <button class="tablinks" onclick="openCity(event, 'AboutUs')">About Us</button>
         <button class="tablinks" onclick="openCity(event, 'Register')">Register</button>
         <button class="tablinks" onclick="openCity(event, 'SponsorsAndPartners')">Sponsors and Partners</button>
