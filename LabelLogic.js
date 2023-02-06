@@ -12,6 +12,7 @@ function openLabel(evt, label) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
 
+    /* space is neccesary before the active */
     document.getElementById(label).style.display = "block";
     evt.currentTarget.className += " active";
 
