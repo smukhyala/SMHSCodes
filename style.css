@@ -69,7 +69,7 @@ to {opacity: 1;}
 
 .mainBox {
     width: 100vw;
-    height: 400px;
+    height: 500px;
     box-sizing: border-box;
     margin: 10;
     top: 0px;
@@ -91,8 +91,8 @@ to {opacity: 1;}
     -webkit-transform: translateY(100px);
   }
   100%{
-    transform: translateY(-850px) rotate(0deg);
-    -webkit-transform: translateY(-850px) rotate(0deg);
+    transform: translateY(-850px) rotate(360deg);
+    -webkit-transform: translateY(-850px) rotate(360deg);
   }
 }
 
@@ -114,7 +114,7 @@ to {opacity: 1;}
   border-radius: 70%;
   position: absolute;
   background-color: #f6f6f6;
-  animation: spin 5s linear 1;
+  animation: spin 7s linear 1;
   animation-fill-mode: forwards;
   z-index: 0;
 }
